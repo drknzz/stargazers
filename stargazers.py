@@ -26,7 +26,7 @@ class Stargazer:
 class ReadMe:
     """ ReadMe file """
 
-    COMMENT_TAG = "<!-- latest_stargazers -->"
+    COMMENT_TAG = "<!-- stargazers -->"
 
     def __init__(self, path: Path) -> None:
         self.path = path
