@@ -1,5 +1,5 @@
 # stargazers
-⭐Display the latest STARGAZERS of your repository ⭐
+⭐ Display the latest STARGAZERS of your repository ⭐
 
 <!-- stargazers -->
 <!-- stargazers -->
