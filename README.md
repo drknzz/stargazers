@@ -1,14 +1,16 @@
-# stargazers
-⭐ Display the latest STARGAZERS of your repository ⭐
+![stargazersx](https://user-images.githubusercontent.com/65187002/188505313-c85dd8f1-3946-4f5a-897b-3c22288c906a.png)
+#
+<h2 align="center">⭐ Display the latest STARGAZERS of your repository ⭐</h2>
 
-<!-- stargazers -->
-<!-- stargazers -->
+<br><br>
 
-# Usage
+<h1 align="center">See a <a href="https://github.com/drknzz/stargazers-test/">LIVE</a> usage</h1>
 
-Use this action as you would any other action.
+<br><br>
 
-## Required file structure
+## ▶️ Usage ▶️
+
+### Required file structure
 ```
 repository_root/
 ├─ .github/
@@ -17,7 +19,9 @@ repository_root/
 ├─ README.md
 ```
 
-## Example usage
+### Action
+Copy the content below and paste it into **action.yml** inside **.github/workflows/ directory**.
+
 ```
 name: stargazers
 
@@ -30,4 +34,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: drknzz/stargazers@main
+```
+
+### Embed
+To showcase the stargazers file simply put these two comments in your **README.md** file:
+
+```
+<!-- stargazers -->
+<!-- stargazers -->
 ```
