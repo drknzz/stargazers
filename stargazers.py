@@ -46,7 +46,7 @@ class ReadMe:
         table = "| "
 
         for stargazer in stargazers[:size]:
-            table += f" {stargazer.name} |"
+            table += f" {self.make_a_tag(stargazer.url(), stargazer.name)} |"
         
         table += "\n"
         table += "| " + " :-: |" * size
